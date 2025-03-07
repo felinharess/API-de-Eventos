@@ -1,6 +1,6 @@
 const pg = require("pg");
 
-const database = new pg.Client("postgresql://postgres:luciaEli18.@db.xgbpvioncjuhvmimzeej.supabase.co:5432/postgres");
+const database = new pg.Client("postgresql://postgres:**********.@db.xgbpvioncjuhvmimzeej.supabase.co:5432/postgres");
 
 database.connect((erro) =>{
     if(erro){
